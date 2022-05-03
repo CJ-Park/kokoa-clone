@@ -3,6 +3,7 @@
     text-align: center;
     background-color: #fafafa;
     margin-bottom: 10px;
+    margin-top: -15px;
     padding: 15px 0px;
     font-size: 18px;
 }
@@ -11,13 +12,10 @@
     color: rgba(0,0,0,0.2);
 }
 
-.friends-screen {
-    padding: 0px var(--horizontal-space);
-}
-
 .friends-screen__channel-header {
     display: flex;
     margin-top: 25px;
+    margin-bottom: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     padding: 20px 0px;
     justify-content: space-between;
