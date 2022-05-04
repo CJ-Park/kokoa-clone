@@ -12,5 +12,20 @@
 }
 
 .screen__header__icons span {
+    position: relative;
     margin-left: 25px;
+}
+
+.screen__header__icons__noti {
+    background-color: #f9f9fa;
+    color: tomato;
+    font-size: xx-large;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    margin-left: 0px;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    bottom: 35px;
 }

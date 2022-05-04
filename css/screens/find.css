@@ -1,0 +1,124 @@
+.find__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.find__icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find__icons__icon i {
+    font-size: 35px;
+}
+
+.find__icons__icon span {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.recommended__friends {
+    border-top: var(--bar);
+    border-bottom: var(--bar);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px 0px;
+    color: var(--gray2);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.recommended__friends span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 100px 0px;
+}
+
+.open__chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.open__chat__header span {
+    opacity: 0.45;
+}
+
+.open__post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open__post__title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.open__post__hashtags {
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.open__post__members {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.open__post__members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open__post__member__count {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.open__post__members .divider {
+    width: 2px;
+    height: 13px;
+    margin: 0px 5px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.open__post__member__status {
+    color: #ffb0e0;
+}
+
+.open__post__photo {
+    position: relative;
+}
+
+.open__post__photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open__post__heart-count {
+    background-color: var(--gray2);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.open__post__heart-count span {
+    margin-left: 4px;
+}
