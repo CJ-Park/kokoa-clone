@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find - Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -27,10 +27,13 @@
     </div>
 
     <header class="screen__header">
-        <h1 class="screen__header__title">Find</h1>
+        <h1 class="screen__header__title">More</h1>
         <div class="screen__header__icons">
             <span>
                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span>
+                <i class="fa-solid fa-music fa-lg"></i>
             </span>
             <span>
                 <i class="fa-solid fa-gear fa-lg"></i>
@@ -39,59 +42,60 @@
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <div class="user-component">
+                    <img 
+                    src="C:\Users\CJ\Desktop\잡다한거\selfie.jpg" 
+                    class="user-component__avatar user-component__avatar--xl"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__name">Joe</h4>
+                        <h6 class="user-component__sub">
+                            +82 10-4469-4006
+                            <div class="user-component__sub__icon">!</div>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="fa-regular fa-message fa-2x"></i>
+            </div>
+        </div>
         <div class="icon-row">
             <div class="icon-row__icon">
-                <i class="fa-solid fa-qrcode fa-lg"></i>
-                <span>QR Code</span>
+                <i class="fa-solid fa-calendar-check fa-lg"></i>
+                <span>Calenar</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fa-solid fa-address-book fa-lg"></i>
-                <span>Add by<br/>Contacts</span>
+                <i class="fa-solid fa-bars fa-lg"></i>
+                <span>Talk Drive</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fa-solid fa-fingerprint fa-lg"></i>
-                <span>Add by ID</span>
+                <i class="fa-regular fa-face-smile fa-lg"></i>
+                <span>Emoticons</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fa-solid fa-envelope fa-lg"></i>
-                <span>Invite</span>
+                <i class="fa-solid fa-brush fa-lg"></i>
+                <span>Themes</span>
             </div>
         </div>
-        <div class="recommended__friends">
-            <div class="recommended__friends__title">
-                <h6>Recommended Friends</h6>
-            </div>
-            <span>You have no recommended friends</span>
+        <div class="more-suggestion">
+            <h4 class="more-suggestion__title">Suggestions</h4>
         </div>
-        <div class="open__chat">
-            <div class="open__chat__header">
-                <h4 class="open__chat__title">Open Chat</h4>
-                <span>
-                    Go to Openchat Home
-                    <i class="fa-solid fa-chevron-right fa-xs"></i>
-                </span>
+        <div class="more-suggestion__icons">
+            <div class="more-suggestion__icon">
+                <div class="more-suggestion__icon-image">
+                    <i class="fa-solid fa-quote-right fa-lg"></i>
+                </div>
+                <span class="more-suggestion__icon-text">Kokoa Story</span>
             </div>
-            <div class="open__post">
-                <div class="open__post__column">
-                    <h5 class="open__post__title">#BTS</h5>
-                    <h6 class="open__post__hashtags">#bts#army#friends</h6>
-                    <div class="open__post__members">
-                        <img src="C:\Users\CJ\Desktop\잡다한거\selfie.jpg" />
-                        <span class="open__post__member__count">802 members</span>
-                        <div class="divider"></div>
-                        <span class="open__post__member__status">Active</span>
-                    </div>
+            <div class="more-suggestion__icon">
+                <div class="more-suggestion__icon-image">
+                    <i class="fa-solid fa-quote-right fa-lg"></i>
                 </div>
-                <div class="open__post__column">
-                    <div class="open__post__photo">
-                        <img src="C:\Users\CJ\Desktop\잡다한거\selfie.jpg" />
-                        <div class="open__post__heart-count">
-                            <i class="fa-solid fa-heart"></i>
-                            <span>326</span>
-                        </div>
-                    </div>
-                </div>
+                <span class="more-suggestion__icon-text">Kokoa Story</span>
             </div>
         </div>
     </main>
