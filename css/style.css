@@ -25,6 +25,7 @@ body {
     padding-top: 30px;
     font-family: 'Open Sans', sans-serif;
     color: #2f363e;
+    overflow-y: auto;
 }
 
 .main-screen {
