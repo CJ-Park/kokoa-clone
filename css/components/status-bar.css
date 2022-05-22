@@ -4,6 +4,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    color: #f9f9fa;
+    background-color: #2f363e;
     padding: 5px 3px;
     margin: 0px 2px;
     z-index: 1;
